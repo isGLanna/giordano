@@ -3,11 +3,11 @@ name: Deploy S3
 on:
   workflow_dispatch:
   
-  jobs:
-    build-and-deploy:
-      name: Build and Deploy to S3
-      runs-on: ubuntu-latest
+jobs:
+  build-and-deploy:
+    name: Build and Deploy to S3
+    runs-on: ubuntu-latest
 
-  step:
-    - name: Teste
-      run: echo Teste
+    step:
+      - name: Teste
+        run: echo Teste
